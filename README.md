@@ -19,6 +19,6 @@ This project is an adaptive website for a non-existent coffee shop, created usin
 * BEM methodology.
 
 ## Links
-* [Project link]()
+* [Project link](https://voiislav.github.io/coffee-house/)
 
 * [Figma link](https://www.figma.com/file/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?type=design&node-id=0-1&mode=design&t=1uGxlTz03Fclt5Yz-0)
