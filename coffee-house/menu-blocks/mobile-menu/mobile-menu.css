@@ -1,0 +1,14 @@
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  padding-top: 60px;
+  left: calc(100% + 42px);
+  z-index: 1;
+  background-color: #E1D4C9;
+}

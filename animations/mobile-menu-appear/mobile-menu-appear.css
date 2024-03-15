@@ -1,0 +1,12 @@
+@keyframes appear {
+  from {
+    left: calc(100% + 42px);
+  }
+  to {
+    left: 0;
+  }
+}
+
+.mobile-menu-appear {
+  animation: appear 0.5s;
+}

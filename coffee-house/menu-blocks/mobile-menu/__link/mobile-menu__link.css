@@ -1,0 +1,8 @@
+.mobile-menu__link {
+  text-decoration: none;
+  cursor: default;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 125%;
+  color: #403F3D;
+}

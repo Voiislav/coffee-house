@@ -1,0 +1,27 @@
+@keyframes fill {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes reset {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 0;
+  }
+}
+
+.progress-fill {
+  animation: fill 5s linear forwards;
+}
+
+.progress-reset {
+  animation: reset 0.25s linear forwards;
+}

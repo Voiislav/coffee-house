@@ -1,0 +1,12 @@
+.popup__set-options {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  gap: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .popup__set-options {
+    flex-wrap: wrap;
+  }
+}

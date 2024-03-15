@@ -1,0 +1,23 @@
+.enjoy {
+  border-radius: 40px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px;
+  margin-bottom: 100px;
+  color: #E1D4C9;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .enjoy {
+    padding: 100px 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .enjoy {
+    padding: 60px 16px;
+  }
+}

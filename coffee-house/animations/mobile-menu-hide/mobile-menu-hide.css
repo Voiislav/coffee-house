@@ -1,0 +1,12 @@
+@keyframes hide {
+  from {
+    left: 0;
+  }
+  to {
+    left: calc(100% + 40px);
+  }
+}
+
+.mobile-menu-hide {
+  animation: hide 0.5s;
+}

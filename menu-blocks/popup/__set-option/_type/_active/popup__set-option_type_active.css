@@ -1,0 +1,19 @@
+.popup__set-option_type_active {
+  background-color: #665F55;
+  color: #E1D4C9;
+}
+
+.popup__set-option_type_active .popup__set-icon rect  {
+  fill: #E1D4C9;
+}
+
+@media screen and (max-width: 768px) {
+  .popup__set-option_type_active:hover {
+    background-color: #665F55;
+    color: #E1D4C9;
+  }
+
+  .popup__set-option_type_active:hover .popup__set-icon rect {
+    fill: #E1D4C9;
+  }
+}

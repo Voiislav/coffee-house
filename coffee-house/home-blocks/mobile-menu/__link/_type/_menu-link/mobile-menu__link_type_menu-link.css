@@ -1,0 +1,7 @@
+.mobile-menu__link_type_menu-link {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  border: none;
+  background: none;
+}

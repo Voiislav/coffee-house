@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Voiislav Mitrovich">
+  <link rel="stylesheet" href="./pages/index.css">
+  <link type="image/x-icon" href="./images/favicon.ico" rel="icon">
+  <script type="module" src="./pages/index.js"></script>
+  <title>Resource Coffee House</title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <a class="header__logo-link"><img class="header__logo" src="./images/resource-ch-logo.svg"
+        alt="Logo of Resource coffee house"></a>
+    <nav class="header__menu">
+      <ul class="header__links">
+        <li><a class="header__link" href="#favorite-coffee">Favorite coffee</a></li>
+        <li><a class="header__link" href="#about">About</a></li>
+        <li><a class="header__link" href="#mobile-app">Mobile app</a></li>
+        <li><a class="header__link" href="#contact-us">Contact us</a></li>
+      </ul>
+    </nav>
+    <a class="header__link header__link_type_menu-link" href="menu.html">Menu<img class="header__menu-logo"
+        src="./images/menu-coffee-cup.svg" alt="Picture of coffee cup"></a>
+    <button class="header__button" id="open-menu" type="button" aria-label="Open mobile menu"><span
+        class="header__burger"></span></button>
+    <button class="header__button header__button_type_close" id="close-menu" type="button" aria-label="Close mobile menu"><img class="header__close-icon" src="./images/close-icon.svg" alt="Icon of cross"></button>
+  </header>
+  <main class="main">
+    <section class="mobile-menu">
+      <nav class="mobile-menu__menu">
+        <ul class="mobile-menu__links">
+          <li><a class="mobile-menu__link" href="#favorite-coffee">Favorite coffee</a></li>
+          <li><a class="mobile-menu__link" href="#about">About</a></li>
+          <li><a class="mobile-menu__link" href="#mobile-app">Mobile app</a></li>
+          <li><a class="mobile-menu__link" href="#contact-us">Contact us</a></li>
+        </ul>
+        <a class="mobile-menu__link mobile-menu__link_type_menu-link" href="menu.html">Menu<svg
+            class="mobile-menu__menu-logo" xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40"
+            fill="none">
+            <path
+              d="M28.8333 18.9333V25C28.8333 30.5228 24.3561 35 18.8332 35H15.4999C9.97707 35 5.49992 30.5228 5.49992 25V18.9333C5.49992 18.602 5.76855 18.3333 6.09992 18.3333H28.2333C28.5646 18.3333 28.8333 18.602 28.8333 18.9333Z"
+              stroke="#403F3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path
+              d="M20.4999 15C20.4999 13.3334 21.6904 11.6667 24.0713 11.6667C24.5919 11.6667 25.2136 11.6667 25.8333 11.6667C27.4901 11.6667 28.8333 10.3236 28.8333 8.66671V5.83337"
+              stroke="#403F3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path
+              d="M13.8334 15V12.1667C13.8334 10.5098 15.1766 9.16667 16.8334 9.16667H20.1667C21.2713 9.16667 22.1667 8.27124 22.1667 7.16667V5"
+              stroke="#403F3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path
+              d="M27.1667 18.3334H31.3334C33.6346 18.3334 35.5001 20.1989 35.5001 22.5C35.5001 24.8012 33.6346 26.6667 31.3334 26.6667H28.8334"
+              stroke="#403F3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg></a>
+      </nav>
+    </section>
+    <section class="enjoy">
+      <video class="enjoy__video" loop autoplay muted>
+        <source src="./images/video (1080p).mp4" type="video/mp4">
+      </video>
+      <ul class="enjoy__offer">
+        <li>
+          <h1 class="enjoy__title"><span class="enjoy__title enjoy__title_type_accent">Enjoy</span> premium coffee at
+            our
+            charming cafe</h1>
+        </li>
+        <li>
+          <p class="enjoy__description">With its inviting atmosphere and delicious coffee options, the Coffee House
+            Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy
+            their
+            favorite beverage.</p>
+        </li>
+        <li><button type="button" aria-label="Go to menu" class="enjoy__menu-link">
+            <span class="enjoy__menu-link-text">Menu</span>
+            <img class="enjoy__menu-logo" src="./images/menu-coffee-cup.svg" alt="Picture of coffee cup">
+          </button></li>
+      </ul>
+    </section>
+    <section class="favorite-coffee" id="favorite-coffee">
+      <h2 class="favorite-coffee__title">Choose your <span
+          class="favorite-coffee__title favorite-coffee__title_type_accent">favorite</span> coffee</h2>
+      <div class="favorite-coffee__slider">
+        <button type="button" aria-label="Previous choice"
+          class="favorite-coffee__slider-button favorite-coffee__slider-button_type_prev" id="button-left"></button>
+        <div class="favorite-coffee__carousel-wrapper" id="carousel-wrapper">
+          <div class="favorite-coffee__carousel" id="carousel">
+            <figure class="favorite-coffee__slide" id="active-slide">
+              <img class="favorite-coffee__image" src="./images/frappuccino.png" alt="S'mores Frappuccino">
+              <figcaption class="favorite-coffee__caption">
+                <h3 class="favorite-coffee__name">S'mores Frappuccino</h3>
+                <p class="favorite-coffee__description">This new drink takes an espresso and mixes it with brown sugar
+                  and
+                  cinnamon before being topped with oat milk.</p>
+                <p class="favorite-coffee__price">$5.50</p>
+              </figcaption>
+            </figure>
+            <figure class="favorite-coffee__slide" id="center-slide">
+              <img class="favorite-coffee__image" src="./images/macchiato.png" alt="Caramel Macchiato">
+              <figcaption class="favorite-coffee__caption">
+                <h3 class="favorite-coffee__name">Caramel Macchiato</h3>
+                <p class="favorite-coffee__description">Fragrant and unique classic espresso with rich caramel-peanut
+                  syrup,
+                  with cream under whipped thick foam.</p>
+                <p class="favorite-coffee__price">$5.00</p>
+              </figcaption>
+            </figure>
+            <figure class="favorite-coffee__slide" id="right-slide">
+              <img class="favorite-coffee__image" src="./images/ice-coffee.png" alt="Ice coffee">
+              <figcaption class="favorite-coffee__caption">
+                <h3 class="favorite-coffee__name">Ice coffee</h3>
+                <p class="favorite-coffee__description">A popular summer drink that tones and invigorates. Prepared from
+                  coffee, milk and ice.</p>
+                <p class="favorite-coffee__price">$4.50</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <button type="button" aria-label="Next choice"
+          class="favorite-coffee__slider-button favorite-coffee__slider-button_type_next" id="button-right"></button>
+      </div>
+      <ul class="favorite-coffee__controls">
+        <li>
+          <div class="favorite-coffee__control"><div class="favorite-coffee__progress" id="first-control"></div></div>
+        </li>
+        <li>
+          <div class="favorite-coffee__control"><div class="favorite-coffee__progress" id="second-control"></div></div>
+        </li>
+        <li>
+          <div class="favorite-coffee__control"><div class="favorite-coffee__progress" id="third-control"></div></div>
+        </li>
+      </ul>
+    </section>
+    <section class="about" id="about">
+      <h2 class="about__title">Resource is <span class="about__title about__title_type_accent">the perfect and cozy
+          place</span> where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work
+        done.</h2>
+      <ul class="about__images-list">
+        <li class="about__images-item"><img class="about__image" src="./images/woman-with-coffee-cup.jpg"
+            alt="Woman with coffee cup"></li>
+        <li class="about__images-item"><img class="about__image" src="./images/man-with-coffee-cup.jpg"
+            alt="Man with coffee cup uses his laptop"></li>
+        <li class="about__images-item"><img class="about__image" src="./images/coffee-cup-on-table.jpg"
+            alt="Coffee cup on the table"></li>
+        <li class="about__images-item"><img class="about__image" src="./images/couple-with-coffee-cups.jpg"
+            alt="Couple with coffee cups"></li>
+      </ul>
+    </section>
+    <section class="mobile-app" id="mobile-app">
+      <ul class="mobile-app__offer">
+        <li>
+          <h2 class="mobile-app__title"><span class="mobile-app__title mobile-app__title_type_accent">Download</span>
+            our
+            apps to start ordering</h2>
+        </li>
+        <li>
+          <p class="mobile-app__description">Download the Resource app today and experience the comfort of ordering your
+            favorite coffee from wherever you are</p>
+        </li>
+        <li class="mobile-app__buttons">
+          <div class="mobile-app__button-container">
+            <button type="button" aria-label="Download from App Store" class="mobile-app__button"></button>
+            <svg class="mobile-app__button-icon" width="28" height="33" viewBox="0 0 28 33" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M22.7073 17.6307C22.6704 13.6324 26.065 11.6872 26.2203 11.5966C24.2977 8.86366 21.3178 8.49026 20.2707 8.46048C17.7679 8.20369 15.3403 9.92062 14.0654 9.92062C12.765 9.92062 10.8017 8.48529 8.68579 8.52747C5.96293 8.56841 3.41566 10.1055 2.0186 12.4923C-0.864579 17.359 1.28572 24.5108 4.04802 28.4446C5.42981 30.3712 7.04444 32.5223 9.15784 32.4466C11.2254 32.3635 11.9978 31.1614 14.4929 31.1614C16.9651 31.1614 17.6903 32.4466 19.8457 32.3983C22.0647 32.3635 23.4618 30.463 24.7952 28.519C26.392 26.3108 27.0333 24.1362 27.0588 24.0245C27.0066 24.0071 22.7493 22.4229 22.7073 17.6307Z" />
+              <path
+                d="M18.6357 5.87268C19.7477 4.51675 20.5086 2.67205 20.2974 0.800049C18.6879 0.86952 16.675 1.88554 15.5159 3.21169C14.4903 4.38029 13.5742 6.29571 13.8109 8.097C15.6189 8.2285 17.4753 7.20752 18.6357 5.87268Z" />
+            </svg>
+            <ul class="mobile-app__button-caption">
+              <li class="mobile-app__button-text">Available on the</li>
+              <li class="mobile-app__button-name">App Store</li>
+            </ul>
+          </div>
+          <div class="mobile-app__button-container">
+            <button type="button" aria-label="Download from Google Play" class="mobile-app__button"></button>
+            <svg class="mobile-app__button-icon" width="31" height="34" viewBox="0 0 31 34" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.755796 2.20297C0.393349 2.57289 0.183594 3.14884 0.183594 3.89471V30.4994C0.183594 31.2453 0.393349 31.8212 0.755796 32.1911L0.845252 32.2723L16.1359 17.37V17.0181L0.845252 2.11575L0.755796 2.20297Z" />
+              <path
+                d="M23.0776 22.34L17.9863 17.37V17.0181L23.0837 12.0482L23.1979 12.1128L29.2345 15.4617C30.9573 16.4121 30.9573 17.976 29.2345 18.9324L23.1979 22.2753L23.0776 22.34Z" />
+              <path
+                d="M22.2733 23.2007L17.0617 18.1195L1.68164 33.1166C2.25384 33.7031 3.18695 33.7737 4.24807 33.1873L22.2733 23.2007Z" />
+              <path
+                d="M22.2733 11.1876L4.24807 1.20103C3.18695 0.620579 2.25384 0.691254 1.68164 1.27772L17.0617 16.2688L22.2733 11.1876Z" />
+            </svg>
+            <ul class="mobile-app__button-caption">
+              <li class="mobile-app__button-text">Available on</li>
+              <li class="mobile-app__button-name">Google Play</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <img class="mobile-app__image" src="./images/mobile-screens.png"
+        alt="Picture of two iPhones with opened Resource app">
+    </section>
+  </main>
+  <footer class="footer" id="contact-us">
+    <ul class="footer__offer">
+      <li>
+        <h2 class="footer__title">Sip, Savor, Smile.<span class="footer__title footer__title_type_accent"> It’s coffee
+            time!</span></h2>
+      </li>
+      <li>
+        <ul class="footer__socials">
+          <li><a class="footer__social-link" href="#"><svg class="footer__social-icon" width="60" height="60"
+                viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="59" height="59" rx="29.5" stroke="#C1B6AD" />
+                <path
+                  d="M41 21.0101C41 21.0101 38.9821 22.2022 37.86 22.5401C37.2577 21.8476 36.4573 21.3567 35.567 21.134C34.6767 20.9112 33.7395 20.9673 32.8821 21.2945C32.0247 21.6218 31.2884 22.2045 30.773 22.9638C30.2575 23.7231 29.9877 24.6224 30 25.5401V26.5401C28.2426 26.5856 26.5013 26.1959 24.931 25.4055C23.3607 24.6151 22.0103 23.4487 21 22.0101C21 22.0101 17 31.0101 26 35.0101C23.9405 36.408 21.4872 37.109 19 37.0101C28 42.0101 39 37.0101 39 25.5101C38.9991 25.2315 38.9723 24.9537 38.92 24.6801C39.9406 23.6735 41 21.0101 41 21.0101Z"
+                  stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round" />
+              </svg></a>
+          </li>
+          <li><a class="footer__social-link" href="#"><svg class="footer__social-icon" width="60" height="60"
+                viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="59" height="59" rx="29.5" stroke="#C1B6AD" />
+                <path
+                  d="M30 34C32.2091 34 34 32.2091 34 30C34 27.7909 32.2091 26 30 26C27.7909 26 26 27.7909 26 30C26 32.2091 27.7909 34 30 34Z"
+                  stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M21 34V26C21 23.2386 23.2386 21 26 21H34C36.7614 21 39 23.2386 39 26V34C39 36.7614 36.7614 39 34 39H26C23.2386 39 21 36.7614 21 34Z"
+                  stroke="#E1D4C9" />
+                <path d="M35.5 24.51L35.51 24.4989" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round" />
+              </svg></a>
+          </li>
+          <li><a class="footer__social-link" href="#"><svg class="footer__social-icon" width="60" height="60"
+                viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="59" height="59" rx="29.5" stroke="#C1B6AD" />
+                <path
+                  d="M35 20H32C30.6739 20 29.4021 20.5268 28.4645 21.4645C27.5268 22.4021 27 23.6739 27 25V28H24V32H27V40H31V32H34L35 28H31V25C31 24.7348 31.1054 24.4804 31.2929 24.2929C31.4804 24.1054 31.7348 24 32 24H35V20Z"
+                  stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round" />
+              </svg></a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="footer__contacts">
+      <li>
+        <h3 class="footer__contacts-title">Contact us</h3>
+      </li>
+      <li><a class="footer__contact-link" href="https://maps.app.goo.gl/SESYGc38e3c8iXnX8" target="_blank"><img
+            class="footer__contact-icon" src="./images/location-logo.svg" alt="Location icon">8558 Green Rd., LA</a>
+      </li>
+      <li><a class="footer__contact-link" href="tel:+16035550123"><img class="footer__contact-icon"
+            src="./images/phone-logo.svg" alt="Phone icon">+1 (603) 555-0123</a>
+      </li>
+      <li class="footer__contact-item"><img class="footer__contact-icon" src="./images/clock-logo.svg"
+          alt="Clock icon">Mon-Sat: 9:00 AM – 23:00 PM</li>
+    </ul>
+  </footer>
+</body>
+
+</html>

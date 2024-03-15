@@ -1,0 +1,8 @@
+.popup__alert {
+  display: flex;
+  list-style: none;
+  padding: 12px 0;
+  border-top: 1px solid #C1B6AD;
+  gap: 8px;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,6 @@
+.mobile-app__button-icon {
+  width: 30px;
+  height: 32px;
+  fill: #403F3D;
+  transition: 0.6s all ease;
+}

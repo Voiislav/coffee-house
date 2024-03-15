@@ -1,0 +1,9 @@
+.menu {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  color: #403F3D;
+  width: 100%;
+}

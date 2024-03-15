@@ -1,0 +1,21 @@
+.favorite-coffee__slider-button_type_next {
+  background-image: url(../../../../../images/slider-button-to-right.svg);
+  background-size: cover;
+  transition: 0.6s all ease;
+}
+
+.favorite-coffee__slider-button_type_next:hover {
+  transition: 0.6s all ease;
+  background-image: url(../../../../../images/slider-button-to-right-dark.svg);
+}
+
+@media screen and (max-width: 768px) {
+  .favorite-coffee__slider-button_type_next {
+    transition: none;
+  }
+
+  .favorite-coffee__slider-button_type_next:hover {
+    transition: none;
+    background-image: url(../../../../../images/slider-button-to-right.svg);
+  }
+}

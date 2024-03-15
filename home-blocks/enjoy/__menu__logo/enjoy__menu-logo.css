@@ -1,0 +1,15 @@
+.enjoy__menu-logo {
+  opacity: 0;
+  position: absolute;
+  left: 116px;
+  transition: 0.5s all ease;
+}
+
+@media screen and (max-width: 768px) {
+  .enjoy__menu-logo {
+    opacity: 1;
+    position: static;
+    margin-left: 8px;
+    transition: none;
+  }
+}

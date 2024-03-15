@@ -1,0 +1,6 @@
+.favorite-coffee__carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 480px;
+}

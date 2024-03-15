@@ -1,0 +1,48 @@
+.menu__tab-button {
+  border: 1px solid #C1B6AD;
+  border-radius: 100px;
+  background: none;
+  padding: 8px 16px 8px 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #403F3D;
+  gap: 8px;
+  cursor: pointer;
+  transition: 0.4s all ease;
+}
+
+.menu__tab-button .menu__tab-icon rect {
+  fill: #C1B6AD;
+}
+
+.menu__tab-button:hover {
+  background-color: #665F55;
+  color: #E1D4C9;
+  transition: 0.4s all ease;
+}
+
+.menu__tab-button:hover .menu__tab-icon rect {
+  fill: #E1D4C9;
+  transition: 0.4s fill ease;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__tab-button {
+    cursor: default;
+    transition: none;
+  }
+
+  .menu__tab-button:hover {
+    background-color: transparent;
+    color: #403F3D;
+    transition: none;
+  }
+
+  .menu__tab-button:hover .menu__tab-icon rect {
+    /* fill: #C1B6AD; */
+    transition: none;
+  }
+}

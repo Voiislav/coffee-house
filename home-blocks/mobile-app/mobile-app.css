@@ -1,0 +1,19 @@
+.mobile-app {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  color: #403F3D;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1439px) {
+  .mobile-app {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mobile-app {
+    gap: 40px;
+  }
+}

@@ -1,0 +1,28 @@
+.menu__item {
+  padding: 0 0 20px 0;
+  border: 1px solid #C1B6AD;
+  border-radius: 40px;
+  position: relative;
+  width: 100%;
+  max-width: 310px;
+  height: 506px;
+  box-sizing: border-box;
+}
+
+.menu__item:hover .menu__image {
+  transform: scale(1);
+  transition: transform 0.6s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__item:nth-of-type(n + 5) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu__item:hover .menu__image {
+    transition: none;
+    transform: none;
+  }
+}

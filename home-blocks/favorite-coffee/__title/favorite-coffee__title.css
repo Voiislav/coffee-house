@@ -1,0 +1,13 @@
+.favorite-coffee__title {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 125%;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .favorite-coffee__title {
+    font-size: 32px;
+  }
+}

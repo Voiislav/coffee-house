@@ -1,0 +1,43 @@
+.popup__set-option {
+  background: none;
+  border: 1px solid #C1B6AD;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px 8px 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #403F3D;
+  transition: 0.6s all ease;
+  cursor: pointer; 
+}
+
+.popup__set-option:hover {
+  transition: 0.6s all ease;
+  background-color: #665F55;
+  color: #E1D4C9;
+}
+
+.popup__set-option:hover .popup__set-icon rect {
+  transition: 0.6s all ease;
+  fill: #E1D4C9;
+}
+
+@media screen and (max-width: 768px) {
+  .popup__set-option {
+    transition: none;
+    cursor: default; 
+  }
+
+  .popup__set-option:hover .popup__set-icon rect {
+    transition: none;
+    fill: #C1B6AD;
+  }
+
+  .popup__set-option:hover {
+    transition: none;
+    background-color: transparent;
+    color: #403F3D;
+  }
+}

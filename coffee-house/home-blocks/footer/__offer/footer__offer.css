@@ -1,0 +1,9 @@
+.footer__offer {
+  list-style: none;
+  max-width: 530px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 0;
+}

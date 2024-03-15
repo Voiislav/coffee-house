@@ -1,0 +1,25 @@
+@keyframes move-left {
+  from {
+    left: 0
+  }
+  to {
+    left: -100%
+  }
+}
+
+@keyframes move-left-double {
+  from {
+    left: 0
+  }
+  to {
+    left: -200%
+  }
+}
+
+.transition-left {
+  animation: move-left 1s;
+}
+
+.transition-left-double {
+  animation: move-left-double 1s;
+}

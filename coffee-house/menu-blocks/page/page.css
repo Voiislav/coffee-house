@@ -1,0 +1,35 @@
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  background-color: #E1D4C9;
+  margin: 0 auto;
+  padding: 20px 40px 40px 40px;
+  width: 100%;
+  max-width: 1440px;
+  animation: fadeIn 0.5s ease-in-out;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .page {
+    padding: 20px 16px 40px 16px;
+  }
+}

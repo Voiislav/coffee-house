@@ -1,0 +1,10 @@
+.mobile-menu_opened {
+  display: flex;
+  left: 0;
+}
+
+@media screen and (min-width: 769px) {
+  .mobile-menu_opened {
+    display: none;
+  }
+}

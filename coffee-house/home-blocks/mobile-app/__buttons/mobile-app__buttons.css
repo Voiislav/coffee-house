@@ -1,0 +1,13 @@
+.mobile-app__buttons {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 459px) {
+  .mobile-app__buttons {
+    flex-direction: column;
+  }
+}

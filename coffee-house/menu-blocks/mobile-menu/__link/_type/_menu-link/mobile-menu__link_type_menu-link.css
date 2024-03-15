@@ -1,0 +1,12 @@
+.mobile-menu__link_type_menu-link {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  border-bottom: 2px solid #403F3D;
+  text-decoration: none;
+  cursor: default;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 125%;
+  color: #403F3D;
+}

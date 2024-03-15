@@ -1,0 +1,16 @@
+.menu__tab-button_type_active {
+  background-color: #665F55;
+  color: #E1D4C9;
+  cursor: default;
+}
+
+.menu__tab-button_type_active .menu__tab-icon rect {
+  fill: #E1D4C9;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__tab-button_type_active:hover {
+    background-color: #665F55;
+    color: #E1D4C9;
+  }
+}

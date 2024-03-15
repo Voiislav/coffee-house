@@ -1,0 +1,19 @@
+.favorite-coffee__slider-button {
+  width: 60px;
+  height: 60px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .favorite-coffee__slider-button {
+    cursor: default;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .favorite-coffee__slider-button {
+    display: none;
+  }
+}

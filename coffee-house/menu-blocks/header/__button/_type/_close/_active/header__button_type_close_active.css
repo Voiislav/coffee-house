@@ -1,0 +1,9 @@
+.header__button_type_close_active {
+  display: flex;
+}
+
+@media screen and (min-width: 769px) {
+  .header__button_type_close_active {
+    display: none;
+  }
+}

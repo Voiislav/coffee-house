@@ -1,0 +1,9 @@
+.favorite-coffee {
+  color: #403F3D;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 100px;
+  align-items: center;
+  gap: 40px;
+}

@@ -1,0 +1,12 @@
+.favorite-coffee__carousel {
+  display: flex;
+  position: relative;
+  width: 480px;
+}
+
+@media screen and (max-width: 380px) {
+  .favorite-coffee__carousel {
+    width: 348px;
+  }
+}
+

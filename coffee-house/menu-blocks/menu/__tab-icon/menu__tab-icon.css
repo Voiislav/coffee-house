@@ -1,0 +1,13 @@
+.menu__tab-icon rect {
+  transition: 0.4s fill ease;
+}
+
+.menu__tab-icon:hover rect {
+  transition: 0.4s fill ease;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__tab-icon rect {
+    transition: none;
+  }
+}

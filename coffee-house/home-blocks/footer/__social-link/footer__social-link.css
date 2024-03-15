@@ -1,0 +1,26 @@
+.footer__social-link {
+  cursor: default;
+}
+
+.footer__social-link:hover .footer__social-icon {
+  transition: all 0.6s ease;
+  background-color: #E1D4C9;
+}
+
+.footer__social-link:hover .footer__social-icon path {
+  stroke: #403F3D;
+  transition: stroke 0.6s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__social-link:hover .footer__social-icon{
+    transition: none;
+    background-color: transparent;
+    cursor: default;
+  }
+
+  .footer__social-link:hover .footer__social-icon path {
+    transition: none;
+    stroke: #E1D4C9;
+  }
+}

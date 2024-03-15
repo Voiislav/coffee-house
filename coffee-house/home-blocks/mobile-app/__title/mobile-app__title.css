@@ -1,0 +1,12 @@
+.mobile-app__title {
+  font-size: 60px;
+  line-height: 125%;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px){
+  .mobile-app__title {
+    font-size: 32px;
+  }
+}

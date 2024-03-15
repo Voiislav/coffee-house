@@ -1,0 +1,7 @@
+.favorite-coffee__progress {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: #665F55;
+}

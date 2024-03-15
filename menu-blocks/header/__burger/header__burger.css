@@ -1,0 +1,7 @@
+.header__burger {
+  border-top: 1.5px solid #403F3D;
+  border-bottom: 1.5px solid #403F3D;
+  height: 8px;
+  width: 16px;
+  box-sizing: border-box;
+}
