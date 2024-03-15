@@ -1,21 +1,24 @@
-# Website "Resource Coffee House" layout
+# Resource Coffee House Website
 
-**Description**
+## Description
+This project is an adaptive website for a non-existent coffee shop, created using HTML, CSS, and vanilla JavaScript. The website includes a main page and a menu page.
 
-The current project is an educational project within the JS/Front-end educational program by RS School. What you see is the result of completing the **Stage 1**.
+## Implemented features
+* Adaptive design.
+* Main page slider: the images can be changed manually or automatically.
+* Simulation of order assembly in the menu: selecting the product size and toppings affects the final cost.
+* Menu re-rendering depending on the selected category.
+* Different hover effects.
 
-**Stages of development**
+## Skills applied
+* Interaction with **DOM** and **DOM events**.
+* Working with **CSS animations**.
+* Working with JS data structures (*array of objects*).
+* OOP principles.
+* HTML semantic markup.
+* BEM methodology.
 
-* *Stage 1.* Creating the Desktop layout with added interactivity using CSS and vanilla JavaScript.
-
-**Technologies**
-
-* HTML
-* CSS
-* JavaScript
-
-**Links**
+## Links
+* [Project link]()
 
 * [Figma link](https://www.figma.com/file/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?type=design&node-id=0-1&mode=design&t=1uGxlTz03Fclt5Yz-0)
-
-* [Project link]()
